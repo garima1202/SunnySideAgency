@@ -1,0 +1,231 @@
+body{
+    font-family: 'Barlow', sans-serif;
+}
+#title{
+    padding: 10px 30px;
+}
+.container-fluid{
+    padding: 0px;
+}
+.nav-item{
+    margin-left: 30px;
+}
+.btn:hover{
+    background-color: #89CFF0;
+    color: white;
+}
+p{
+    font-weight: 900;
+    color: hsl(210, 4%, 67%);;
+}
+
+#title{
+    background-image: url("bg1.jpg");
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center center;
+}
+.slideTop{
+    text-align: center;
+    margin-top: 80px;
+    transform: translateY(0);
+}
+.creatives{
+    font-family: 'Fraunces', serif;
+    font-size: 50px;
+    margin-bottom: 40px;
+    color: white;
+    letter-spacing: 8px;
+
+}
+.btn{
+    font-family: "Fraunces", sans-serif;
+}
+.nav-link{
+    color: white;
+    font-size: 1rem;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.btn{
+    border-radius: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 900;
+    padding: 0.8rem 1rem;
+    background-color: white;
+    transition: 400ms ease;
+    border: 0px;
+    color: black;
+}
+.white{
+    color: white;
+}
+
+.egg{
+    width: 100%;
+    height:500px;
+    object-fit: cover;
+}
+.learn{
+    text-decoration: underline hsla(51, 100%, 49%, 0.329);
+    text-decoration-thickness: 5px;
+    color: black;
+    transition: 400ms ease;
+}
+.orange-line{
+    font-family: "Fraunces", sans-serif;
+    font-weight: 900;
+    text-decoration: underline hsla(51, 100%, 49%, 0.329);
+    text-decoration-thickness: 5px;
+    color: black;
+    transition: 400ms ease;
+}
+
+.yellow-line{
+    font-family: "Fraunces", sans-serif;
+    font-weight: 900;
+    text-decoration: underline hsla(51, 100%, 49%, 0.329);
+    text-decoration-thickness: 5px;
+    color: black;
+    transition: 400ms ease;
+}
+
+.col-lg-6{
+    padding: 0px;
+}
+.card-img-top{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+   
+    
+}
+.row{
+    margin: 0px;
+}
+.image2{
+    position: relative;
+}
+.centered{
+    position: absolute;
+    top: 60%;
+    text-align: center;
+    color: #25564b;
+}
+.graphic{
+    font-family: 'Fraunces', serif;
+    
+}
+.texts{
+    padding: 0% 27%;
+    color: #25564b;
+}
+
+.head{
+    margin: 140px 100px 50px 100px ;
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: hsl(210, 4%, 67%);;
+    font-size: 1.5rem;
+}
+.card-text{
+    text-align: center;
+    padding: 20px 80px 20px 80px;
+    color:hsl(213, 9%, 39%);
+}
+.card-title{
+    text-align: center;
+    font-family: 'Fraunces', serif;
+}
+.posit{
+    text-align: center;
+}
+#testimonials{
+    margin-bottom: 80px;
+}
+.col-lg-3{
+    padding: 0px;
+}
+.egg1{
+    min-width: 100%;
+    min-height:350px;
+    object-fit: cover;
+}
+#footer{
+    background-color: hsl(167, 36%, 69%);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+}
+.links{
+    color: var(--moderatedarkcyan);
+    text-decoration: none;
+    padding: 0 1rem;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 900;
+    color: hsla(168, 34%, 41%, 0.671);;
+
+
+}
+.links:hover{
+    color: white;
+}
+.footer-links{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 1.5rem 0;
+}
+.ms{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding-left: 0px;
+}
+.social{
+    padding: 0 0.9rem;
+    
+}
+.fb:hover{
+    color: #4267B2;
+}
+.para{
+    text-align: left;
+    padding: 90px;
+}
+.trans{
+    margin-bottom: 50px;
+    font-size: 2.5rem;
+    font-family: 'Fraunces', serif;
+}
+.transp{
+    padding-right: 150px;
+    line-height: 1.8rem;
+    color:hsl(213, 9%, 39%);
+}
+.imglogo{
+    filter: invert(49%) sepia(16%) saturate(1077%) hue-rotate(
+118deg
+) brightness(95%) contrast(86%);
+}
